@@ -1,0 +1,206 @@
+body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: #2DA9E1;
+}
+/* Grid start */
+.grid {
+    display: grid;
+    overflow: hidden;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+        
+       
+        "section1";
+    
+}
+.section1{
+    grid-area: section1;
+    background: linear-gradient(rgba(0, 0, 0, 0.69), rgba(0, 0, 0, 0.33)), url(../assets/images/background3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+#logoLogin{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10em;
+    height: 30px;
+}
+input[type=text], input[type=password], input[type=email] {
+    width: 300px;
+    padding: 17px 20px;
+    margin: 8px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 7px;
+    -webkit-transition: box-shadow linear 0.5s;
+    transition: box-shadow linear 0.5s;
+}
+input[type=text], input[type=password], input[type=email]:focus, textarea:focus {
+    outline: none;
+    border-color: #2DA9E1;
+    box-shadow: 0 0 10px #2DA9E1;
+}
+
+#container {
+    margin-top: 10%;
+    padding: 16px;
+}
+#containerReg {
+    margin-top: 5%;
+    padding: 16px;
+}
+    #logoLogin{
+        height: 40px;
+}
+button {
+    background-color: #2DA9E1;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    width: 150px;
+    padding: 1em;
+    margin-top: 3em; 
+    box-sizing: border-box;
+    border-radius: 7px;
+    border-color: 2DA9E1;
+    cursor: pointer;
+}
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.9;
+}
+#newMember{
+    font-family: 'Abel', sans-serif;
+    color: white;
+    padding-top: 1em;
+    text-align: center;
+    font-size: 15px;
+    
+
+}
+#underline{
+     text-decoration: underline;
+     cursor: pointer;
+}
+
+
+@media screen and (min-width: 736px) {
+    
+ 
+.grid{
+    display: grid;
+    overflow: hidden;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "section1"
+    ;
+    }
+    #logoLogin{
+        height: 50px;
+}
+
+input[type=text], input[type=password], input[type=email] {
+    font-family: 'Rubik', sans-serif;
+    width: 600px;
+    padding: 17px 20px;
+    margin: 8px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    border-radius: 7px;
+    
+}
+.container {
+    margin-top: 10%;
+    padding: 16px;
+}
+    
+    
+    
+    label {
+  position: absolute;
+  -webkit-transform: translateY(6px);
+          transform: translateY(6px);
+  left: 13px;
+  color: rgba(255, 255, 255, 0.5);
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  -webkit-backface-visibility: hidden;
+  pointer-events: none;
+  font-size: 22px;
+}
+label .req {
+  margin: 2px;
+  color: #1ab188;
+}
+
+label.active {
+  -webkit-transform: translateY(50px);
+          transform: translateY(50px);
+  left: 2px;
+  font-size: 14px;
+}
+label.active .req {
+  opacity: 0;
+}
+
+label.highlight {
+  color: #ffffff;
+}
+/* Home Screen Grid */
+.grid2 {
+    display: grid;
+    overflow: hidden;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+        
+       
+        "section1Home";
+    
+}
+.section1Home{
+    grid-area: section1Home;
+    background: linear-gradient(rgba(0, 0, 0, 0.69), rgba(0, 0, 0, 0.33)), url(../assets/images/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+    
+    .welcomeh1{
+        color: white;
+        font-family: 'Abel', sans-serif;
+        font-size: 70px;
+        text-align: center;
+}
+    h2 {
+    text-align: center;
+    color: #ffff;
+    font-weight: 1000;
+    margin: 0;
+}
+    p{
+    text-align: center;
+    color: #ffffff;
+    margin: 0px 0px 50px 0px;
+}
+
+    
+
+
